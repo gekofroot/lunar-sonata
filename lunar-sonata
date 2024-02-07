@@ -73,7 +73,7 @@ main() {
   echo -e "\ninstalling selected packages...";
   for program in "${programs[@]}"
   do
-    yes | sudo xbps-install -S "$program";
+    sudo xbps-install -Sy "$program";
   done
 
   # create sym link to dm
