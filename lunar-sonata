@@ -12,13 +12,13 @@ main() {
   echo -e "\n";
   
   # packages to be installed
-  # modify as needed (double check array syntax)
+  # modify as needed
   programs=(
-	  "git" "xorg" "lxde"
+	  "vsv" "vpm" "git" "xorg" "lxdm" "xfce4"
 	  "neovim" "zip" "unzip" 
 	  "lynx" "firefox" "evince" 
 	  "feh" "gimp" "gpick"
-	  "android-tools" "cmus"
+	  "android-tools" "cmus" "pulseaudio" "xfce4-pulseaudio-plugin" "kservice" "xdg-utils" "ristretto"
 	  );
 
   # set current date
